@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+.font-secondary{
+      font-family: "Poetsen One", sans-serif;
+}
+
+.font-ternary{
+      font-family: "Outfit", sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@theme{
+    --color-primary:#4ED762;
+    --color-secondary:#297134;
+    --color-ternary:#939393;
+}
