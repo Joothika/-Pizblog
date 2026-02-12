@@ -1,4 +1,4 @@
-# 📓 Piz Blog
+# 🍕 Piz Blog
 
 **Pizblog** is MERN Application for pizza lover's. Where users are able visit pizza blog on daily basis also featured. They can visit all blogs also apply filters, search and add comments to the blog 
 
@@ -31,7 +31,7 @@
 ```bash
 
 # Navigate to frontend
-cd frontend
+cd client
 
 # Install dependencies
 npm install or npm i
@@ -50,7 +50,7 @@ npm run dev
 ```bash
 
 # Navigate to backend
-cd backend
+cd server
 
 # Install dependencies
 npm install or npm i
