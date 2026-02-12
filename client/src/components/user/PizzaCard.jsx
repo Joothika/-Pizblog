@@ -13,7 +13,7 @@ const PizzaCard = ({noContentRequired, featuredCss, allCss, pizzas}) => {
         {
           pizzas?.map((pizza, i) => {
             return(
-             <Link to={`/blog/${pizza._id}`} key={pizza?._id} className={`${allCss && 'border border-ternary/20 shadow-md'} ${featuredCss && i == 5 && 'col-span-2'} ${featuredCss && i == 0  && 'col-span-2 md:col-span-2'}   cursor-pointer`}>
+             <Link to={`/blog/${pizza._id}`} key={pizza?._id} className={`${allCss && 'border border-ternary/20 shadow-md'} ${featuredCss && i == 5 && 'col-span-2'} ${featuredCss && i == 0  ? 'max-sm:mb-4 col-span-2 md:col-span-2' : 'max-sm:mb-4'}   cursor-pointer`}>
                <div>
                   <PizzaThumbnail allCss pizzas={pizza} />
                   {!noContentRequired && <PizzaThumbnailContent allCss pizzas={pizza} />}
