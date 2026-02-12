@@ -1,5 +1,5 @@
 
-export const logo = './logo.png'
+export const logo = '/logo.png'
 export const login_logo = '/login.png'
 export const pizza_logo = '/pizza_logo.png'
 
